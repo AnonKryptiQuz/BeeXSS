@@ -57,11 +57,11 @@
 
 3. **Enter the xss.report username** when prompted. This will allow you to send scan results directly to your **xss.report** account for a more detailed analysis of the found vulnerabilities.
 
-4. **Enter the number for payload encoding** and specify how many times shall the payloads be encoded. This adds flexibility for testing against applications that process multiple layers of encoding.
+4. **Specify the payload encoding settings**: Enter the number corresponding to the desired encoding method and specify how many times the payloads should be encoded. This allows flexibility for testing applications that handle multiple layers of encoding.
 
 5. **Review the results** to check if any Blind XSS vulnerabilities were found. Vulnerable URLs will be flagged, and you’ll have the option to save them for future reference.
 
-6. **Save results**: Optionally, save the results to a file by following the prompt after the scan completes.
+6. **Save results**: You can optionally save the results to a file by following the prompt after the scan completes.
 
 ## **Disclaimer**
 
